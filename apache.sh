@@ -5,7 +5,7 @@ sudo yum -y install php
 cd /var/www/html
 cat > index.php <<- "EOF"
 <?php
-echo "Hello World from Terraform deploy";
+echo "Hello from Terraform deploy";
 ?>
 EOF
 
